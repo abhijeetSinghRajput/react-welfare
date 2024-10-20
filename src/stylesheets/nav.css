@@ -64,6 +64,9 @@
 /* ================= bottom nav =========== */
 .bottom-nav{
     background-color: #084c9d;
+    position: sticky;
+    top: 0;
+    padding: 4px 0;
 }
 .bottom-nav .container{
     display: flex;
