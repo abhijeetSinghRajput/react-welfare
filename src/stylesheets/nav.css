@@ -44,6 +44,7 @@
 /* ================= mid nav =========== */
 .mid-nav{
     padding: 10px;
+    background-color: white;
 }
 .mid-nav .container{
     display: flex;

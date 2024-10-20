@@ -14,6 +14,16 @@ function Dropdown({ list }) {
   );
 }
 
+function SearchBox() {
+  return (
+    <div className="search-box">
+      <input type="text" placeholder="Search" />
+      <div className="icon">
+        <i className="uil uil-search"></i>
+      </div>
+    </div>
+  );
+}
 function BottomNav() {
   const { links } = navigation;
 
@@ -36,13 +46,9 @@ function BottomNav() {
             </li>
           ))}
         </ul>
+
         <div>
-          <div className="search-box">
-            <input type="text" placeholder="Search" />
-            <div className="icon">
-              <i className="uil uil-search"></i>
-            </div>
-          </div>
+            <SearchBox/>
         </div>
       </div>
     </nav>
