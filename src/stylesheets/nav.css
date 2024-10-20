@@ -1,0 +1,142 @@
+:root{
+    --gold: #ffc404;
+}
+
+
+/* ================= top nav =========== */
+.top-nav{
+    background-color: #00245c;
+}
+.top-nav .container{
+    display: flex;
+    justify-content: flex-end;
+}
+.top-nav ul{
+    display: flex;
+    align-items: center;
+}
+.top-nav ul a{
+    padding: 0 8px;
+    color: white;
+    border-right: 1px solid white;
+}
+
+.top-nav .login{
+    padding: 8px 16px;
+    color: white;
+    background-color: var(--gold);
+    text-transform: capitalize;
+    color: black;
+    font-weight: 600;
+}
+.top-nav select{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: 600;
+    outline: none;
+}
+.top-nav select option{
+    color: black;
+}
+
+
+/* ================= mid nav =========== */
+.mid-nav{
+    padding: 10px;
+}
+.mid-nav .container{
+    display: flex;
+    justify-content: space-between;
+}
+.mid-nav .container>div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.mid-nav img{
+    height: 80px;
+}
+
+
+
+/* ================= bottom nav =========== */
+.bottom-nav{
+    background-color: #084c9d;
+}
+.bottom-nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bottom-nav ul li{
+    display: flex;
+    align-items: center;
+}
+.bottom-nav ul li i{
+    color: white;
+    font-size: 18px;
+}
+.bottom-nav ul li a{
+    color: white;
+    padding: 4px 8px;
+}
+.bottom-nav .container>ul>li>a{
+    white-space: nowrap;
+}
+
+/* ================= searchbox =========== */
+.search-box{
+    display: flex;
+    border: 2px solid red;
+    border-radius: 60px;
+    max-width: 300px;
+    overflow: hidden;
+    background-color: white;
+}
+.search-box input{
+    border: none;
+    padding: 8px 16px;
+    flex: 1;
+    outline: none;
+}
+.search-box .icon{
+    aspect-ratio: 1;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gold);
+    border-radius: 50%;
+}
+/* ================= dropmenu =========== */
+.dropmenu{
+    position: relative;
+}
+
+.dropmenu .dropdown{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #00245c;
+    display: none;
+    z-index: 100;
+}
+.dropmenu:hover .dropdown{
+    display: block;
+    width: 300px;
+}
+.dropdown li a{
+    display: inline-block;
+    padding: 10px !important;
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
+.dropdown li a:hover{
+    background-color: #005fa8;
+}

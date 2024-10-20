@@ -1,0 +1,89 @@
+{
+  "links": [
+    {
+      "title": "Home",
+      "href": "#",
+      "subcategory": []
+    },
+    {
+      "title": "About us",
+      "href": "#",
+      "subcategory": [
+        {
+          "title": "Activities at District Offices",
+          "href": "#"
+        },
+        {
+          "title": "District Jurisdiction",
+          "href": "#"
+        },
+        {
+          "title": "Statistics of DSW at a glance",
+          "href": "#"
+        },
+        {
+          "title": "Organisation Charts",
+          "href": "#"
+        },
+        {
+          "title": "Citizen Charter",
+          "href": "#"
+        },
+        {
+          "title": "Minutes of Meeting",
+          "href": "#"
+        },
+        {
+          "title": "Who's Who",
+          "href": "#"
+        },
+        {
+          "title": "Administration",
+          "href": "#"
+        },
+        {
+          "title": "Web Information Managers Details",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "title": "functions",
+      "href": "#",
+      "subcategory": [
+        {
+          "title": "special Schools run under the Department of Welfare, GNCTD",
+          "href": "#"
+        },
+        {
+          "title": "Govt. Lady Noyce School",
+          "href": "#"
+        },
+        {
+          "title": "plan Schemes",
+          "href": "#"
+        },
+        {
+          "title": "Govt. Senior Secondary School for Blind Boys",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "title": "Notice Board",
+      "href": "#",
+      "subcategory": [
+        { "title": "Notice Board", 
+            "href": "#" 
+        },
+        { "title": "Notice Board", 
+            "href": "#" 
+        }
+      ]
+    }
+  ]
+}
+
+
+
+      

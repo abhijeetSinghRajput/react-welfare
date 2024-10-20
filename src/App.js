@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import MidNavbar from './components/Navbar/MidNavbar';
+import TopNavbar from './components/Navbar/TopNavbar';
+import BottomNav from './components/Navbar/BottomNav';
+import img from './assets/images/the_department_of_social_welfare_web_banner.png';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+function App(){
+  return(
+    <>
+      <TopNavbar/>
+      <MidNavbar/>
+      <BottomNav/>
+      <div className='container' id='hero'>
+        <img src={img}></img>
+      </div>
+    </>
   );
 }
 
